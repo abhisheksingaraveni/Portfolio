@@ -126,6 +126,23 @@ body {
     background: #90e0ef;
     color: #0077b6;
 }
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  
+}
+
+a:hover {
+    color: #005f8a; /* Darker blue on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
 
 /* Certificates Section */
 .certificate-content {
